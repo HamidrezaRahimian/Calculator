@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            let A = +prompt('give a number diggaaaa','85');
+    let B = +prompt('give me another dude','69');
+    let C = prompt('pich a mathematic oprator','+');
+
+
+
+    function sum(A,B){
+        return A+B;
+    }
+    function min(A,B){
+        return A-B;
+    }
+    function mul(A,B){
+        return A*B;
+    }
+    function div(A,B){
+        return A/B;
+    }
+
+    let sumResult = sum (A,B);
+    let minResult = min (A,B);
+    let mulResult = mul (A,B);
+    let divResult = div (A,B);
+
+    switch (C){
+            case '+':
+            alert('answer is' + sumResult);
+            break;
+            case '-':
+            alert('answer is' + minResult);
+            break;
+            case '*':
+            alert('answer is' + mulResult);
+            break;
+            case '/':
+            alert('answer is' + divResult);
+            break;
+            default:
+            alert('sorry mate wtf is that?');
+            break;
+    }
+
+
+
+    </script>
+    
+</body>
+</html>
